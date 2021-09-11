@@ -1,0 +1,12 @@
+.header {
+  background-color: #222;
+  top: 0;
+  padding: 1px;
+  text-align: center;
+  font-family: "Roboto";
+  position: fixed;
+  width: 100%;
+}
+.header h2 {
+  color: #f7f5fb;
+}
