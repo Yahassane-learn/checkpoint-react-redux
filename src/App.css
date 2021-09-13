@@ -1,1 +1,97 @@
 
+/* Style ADD Task component*/
+.ADD {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #222;
+    margin: 10% 15% 2% 15%;
+    height: 200px;
+    border-radius: 5px;
+  }
+  
+  .ADD h3 {
+    color: #f7f5fb;
+    font-family: monospace;
+    font-size: x-large;
+    letter-spacing: 5px;
+  }
+  
+  input {
+    width: 25%;
+    border-radius: 6px;
+    padding: 10px;
+    height: 25px;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  button {
+    font-weight: 700;
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+  }
+  /* Style Task component*/
+  .Task {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 50px;
+    margin: 1%;
+  }
+  
+  .desc {
+    background-color: #ffffffb5;
+    color: black;
+    font-weight: 900;
+    height: 25px;
+    width: 50%;
+    text-align: center;
+    border-radius: 5px;
+    resize: none;
+    padding: 1%;
+    font-size: 15px;
+  }
+  
+  .done {
+    text-decoration: line-through;
+  }
+    /* Style TaskList component*/
+    .tasklist {
+        margin: 1% 15%;
+        border-radius: 5px;
+        background-color: #222;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .filter_buttons {
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+        margin: 1%;
+      }
+      .filter_buttons button {
+        letter-spacing: 3px;
+        padding: 2%;
+      }
+       /* Style TodoApp component*/
+       .header {
+        background-color: #222;
+        top: 0;
+        padding: 1px;
+        text-align: center;
+        font-family: "Roboto";
+        position: fixed;
+        width: 100%;
+      }
+      .header h2 {
+        color: #f7f5fb;
+      }
+      
+      
